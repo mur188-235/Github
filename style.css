@@ -1,0 +1,2476 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 14, 23);
+}
+
+img {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 1.4em;
+    left: 18px;
+}
+
+.git-image {
+    position: absolute;
+    top: 3.5em;
+    left: 24.5em;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 28px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 13px;
+    margin-left: 26px;
+    padding-left: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#search {
+    position: absolute;
+    border-radius: 0.375rem;
+    left: 77em;
+    top: 1.5em;
+    height: 2.9em;
+    width: 26em;
+    background-color: rgb(41, 49, 63);
+    border: none;
+}
+
+#search:hover {
+    cursor: pointer;
+}
+
+#search::placeholder {
+    color: rgb(178, 178, 178);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    position: absolute;
+    left: 83.3em;
+    top: 1.76em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 22px;
+    width: 22px;
+    border-color: rgb(99, 98, 98);
+    color: rgb(147, 144, 144);
+}
+
+p {
+    color: white;
+    position: absolute;
+    left: 89em;
+    top: 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+p:hover {
+    cursor: pointer;
+    transition: color 0.5s;
+    color: rgb(193, 185, 185);
+}
+
+.sign-up {
+    border: 1px solid;
+    border-radius: 6px;
+    height: 2em;
+    width: 4.5em;
+    padding: 0 1px 0 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 95em;
+    top: 0.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    position: absolute;
+    top: 1.6em;
+    left: 1.5em;
+    color: white;
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+h3 {
+    position: absolute;
+    top: 13em;
+    left: 5.8em;
+    color: rgb(94, 98, 106);
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#name {
+    position: absolute;
+    top: 32em;
+    left: 10em;
+    height: 50px;
+    width: 286px;
+    border-radius: 0.375rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#name:focus {
+    padding-left: 1em;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+button {
+    border-radius: 0.375rem;
+    height: 50px;
+    width: 190px;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 26.68em;
+    left: 26em;
+    color: white;
+    background-color: rgb(133, 57, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    z-index: 1;
+    line-height: 1;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.pipe {
+    position: absolute;
+    top: 26.8em;
+    left: 39.3em;
+    border: 0.2px solid;
+    color: rgb(94, 98, 106);
+    height: 3em;
+}
+
+.enterprise-trial {
+    border: 1px solid rgb(161, 124, 197);
+    position: absolute;
+    left: 41em;
+    padding-right: 40px;
+    background-color: rgb(13, 14, 23);
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enterprise-trial:hover {
+    border: 2px solid white;
+    transition: border 0.1s;
+}
+
+.arrow {
+    color: white;
+    position: absolute;
+    top: 27em;
+    left: 57em;
+    transition: all 500ms;
+    transform: rotate(90deg);
+}
+
+h4 {
+    position: absolute;
+    top: 28em;
+    left: 6.5em;
+    color: rgb(94, 98, 106);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box-2 {
+    position: absolute;
+    top: 36.9em;
+    left: 33.5em;
+    border: 2px solid black;
+    background-color: rgb(8, 87, 205);
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-1 {
+    position: absolute;
+    top: 40em;
+    left: 8em;
+    height: 4em;
+    width: 4em;
+}
+
+.KPMG {
+    position: absolute;
+    top: 39em;
+    left: 16.5em;
+    height: 6em;
+    width: 6em;
+}
+
+.mercedes-benz {
+    position: absolute;
+    top: 40.5em;
+    left: 27.5em;
+    height: 3em;
+    width: 12em;
+}
+
+.SAP {
+    position: absolute;
+    top: 39em;
+    left: 45em;
+    height: 6em;
+    width: 6em;
+}
+
+.PG {
+    position: absolute;
+    top: 39.7em;
+    left: 55em;
+    height: 4.5em;
+    width: 4.5em;
+}
+
+.TELUS {
+    position: absolute;
+    top: 38em;
+    left: 64em;
+    height: 8em;
+    width: 8em;
+}
+
+.productivity {
+    position: absolute;
+    color: white;
+    top: 32em;
+    left: 5.2em;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Accelerate-innovation {
+    position: absolute;
+    color: rgb(74, 179, 74);
+    top: 21.5em;
+    left: 3.5em;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.AI {
+    color: white;
+    position: absolute;
+    top: 22.6em;
+    left: 3.5em;
+    width: 18em;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.AI-2 {
+    color: white;
+    position: absolute;
+    top: 23.7em;
+    left: 3.5em;
+    width: 18em;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.code {
+    position: absolute;
+    top: 75em;
+    width: 95%;
+    margin-left: 20px;
+    height: auto;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 8px;
+    box-shadow: 0 10px 50px rgb(138, 70, 138);
+}
+
+
+.code-2 {
+    position: absolute;
+    top: 98em;
+    left: 49em;
+    height: 89%;
+    width: 35%;
+    display: block;
+    border-style: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* box-shadow: 0 0px 10em rgb(138, 70, 138); */
+}
+
+.GitHub-Copilot {
+    position: absolute;
+    color: white;
+    top: 83em;
+    left: 7em;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.empowers-developers {
+    color: rgb(118, 118, 118);
+    position: absolute;
+    top: 90.2em;
+    left: 15.7em;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.complete-task {
+    color: rgb(118, 118, 118);
+    position: absolute;
+    top: 91.5em;
+    left: 7.6em;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contextualized {
+    color: rgb(118, 118, 118);
+    position: absolute;
+    top: 92.6em;
+    left: 7.6em;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflows {
+    color: rgb(118, 118, 118);
+    position: absolute;
+    top: 93.7em;
+    left: 7.6em;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.explore {
+    position: absolute;
+    color: white;
+    top: 96.5em;
+    left: 7.6em;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.symbol {
+    position: absolute;
+    color: white;
+    top: 85.45em;
+    left: 16.87em;
+    font-weight: 700;
+    font-size: 26px;
+    transform: rotate(90deg);
+}
+
+.line {
+    color: white;
+    position: absolute;
+    top: 139.5em;
+    left: 18.5em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.line-1 {
+    position: absolute;
+    top: 139.66em;
+    left: 27.5em;
+    border: 0.2px solid white;
+    width: 8px;
+    opacity: 0;
+}
+
+.explore:hover~.line-1 {
+    opacity: 1;
+    transition-delay: 0.5s;
+    transform: scaleX(2);
+}
+
+.explore:hover~.line {
+    opacity: 1;
+    animation: line 1s forwards ease;
+}
+
+@keyframes line {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 172px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(30)
+    }
+}
+
+.did-you-know {
+    position: absolute;
+    top: 193em;
+    left: 13.8em;
+    border: 1px solid rgb(56, 179, 56);
+    border-radius: 15px;
+    color: rgb(73, 186, 73);
+    height: 2em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.increase {
+    position: absolute;
+    top: 37.8em;
+    left: 2.6em;
+    color: rgb(73, 186, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 62px;
+}
+
+.developer-productivity {
+    position: absolute;
+    top: 110.5em;
+    left: 7.6em;
+    color: white;
+    width: 16em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.read {
+    position: absolute;
+    color: white;
+    top: 109em;
+    left: 7.4em;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.symbol-1 {
+    position: absolute;
+    color: white;
+    top: 96.53em;
+    left: 13.4em;
+    font-weight: 700;
+    font-size: 26px;
+    transform: rotate(90deg);
+}
+
+.minus {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 157.75em;
+    left: 21.8em;
+    opacity: 0;
+}
+
+.line-2 {
+    border: 1px solid;
+    width: 0.5em;
+    color: white;
+    position: absolute;
+    top: 158.5em;
+    left: 16.4em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.read:hover~.line-2 {
+    opacity: 1;
+    animation: line-2 1s forwards ease;
+}
+
+.read:hover~.minus {
+    opacity: 1;
+    transition-delay: 0.5s;
+    transform: scaleX(2);
+}
+
+@keyframes line-2 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 135px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(25)
+    }
+}
+
+.github-actions {
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1.5em;
+    padding: 3em 0 0 3em;
+    top: 106em;
+    border: 1px solid rgb(42, 47, 52);
+    background-color: rgb(24, 26, 30);
+    height: 26.5em;
+    width: 93%;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.automates {
+    position: absolute;
+    top: 109em;
+    left: 12.5em;
+    color: rgb(94, 98, 106);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.test {
+    position: absolute;
+    top: 110.3em;
+    left: 4.9em;
+    color: rgb(94, 98, 106);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.simple {
+    position: absolute;
+    top: 111.5em;
+    left: 4.9em;
+    color: rgb(94, 98, 106);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workflow {
+    position: absolute;
+    top: 167em;
+    left: 48.1em;
+    height: auto;
+    width: 50%;
+}
+
+.discover {
+    position: absolute;
+    color: white;
+    top: 170em;
+    left: 7.3em;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.symbol-2 {
+    position: absolute;
+    color: white;
+    top: 127.52em;
+    left: 14.3em;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.line-3 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 193em;
+    left: 15.2em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.minus-2 {
+    border: 1px solid;
+    width: 0.8em;
+    color: white;
+    position: absolute;
+    top: 192.1em;
+    left: 21.6em;
+    opacity: 0;
+}
+
+.discover:hover~.line-3 {
+    opacity: 1;
+    animation: line-3 1s forwards ease;
+}
+
+.discover:hover~.minus-2 {
+    opacity: 1;
+    transition-delay: 0.5s;
+    transform: scaleX(1);
+}
+
+@keyframes line-3 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 60px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(21.5)
+    }
+}
+
+.GitHub-Codespaces {
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1.5em;
+    padding: 3em 0 0 2em;
+    top: 145em;
+    border: 1px solid rgb(42, 47, 52);
+    background-color: rgb(24, 26, 30);
+    height: 37em;
+    width: 45%;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer {
+    position: absolute;
+    top: 148.1em;
+    left: 13.2em;
+    color: rgb(94, 98, 106);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.complete {
+    position: absolute;
+    top: 149.6em;
+    left: 3.86em;
+    color: rgb(94, 98, 106);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second {
+    position: absolute;
+    top: 151em;
+    left: 3.86em;
+    color: rgb(94, 98, 106);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pull-request {
+    position: absolute;
+    top: 152.3em;
+    left: 3.86em;
+    color: rgb(94, 98, 106);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.check-out {
+    position: absolute;
+    color: white;
+    top: 199em;
+    left: 4.8em;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.symbol-3 {
+    position: absolute;
+    color: white;
+    top: 149.30em;
+    left: 14.7em;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.minus-3 {
+    border: 1px solid;
+    width: 0.8em;
+    color: white;
+    position: absolute;
+    top: 224.73em;
+    left: 21.9em;
+    opacity: 0;
+}
+
+.line-4 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 225.2em;
+    left: 13.7em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.check-out:hover~.minus-3 {
+    opacity: 1;
+    transition-delay: 0.5s;
+    transform: scaleX(1);
+}
+
+.check-out:hover~.line-4 {
+    opacity: 1;
+    animation: line-4 1s forwards ease;
+}
+
+@keyframes line-4 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 60px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(24.5)
+    }
+}
+
+.checkout-2 {
+    position: absolute;
+    top: 225.6em;
+    left: 1.4em;
+    height: auto;
+    width: 46.3%;
+}
+
+.github-mobile {
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1.5em;
+    padding: 3em 0 0 2em;
+    top: 145em;
+    left: 35em;
+    border: 1px solid rgb(42, 47, 52);
+    background-color: rgb(24, 26, 30);
+    height: 37em;
+    width: 45%;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fit {
+    position: absolute;
+    top: 148.1em;
+    left: 45.6em;
+    color: rgb(94, 98, 106);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pocket {
+    position: absolute;
+    top: 149.3em;
+    left: 38.6em;
+    color: rgb(94, 98, 106);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.beat {
+    position: absolute;
+    top: 150.7em;
+    left: 38.5em;
+    color: rgb(94, 98, 106);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.download {
+    position: absolute;
+    color: white;
+    top: 199em;
+    left: 49.8em;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.symbol-4 {
+    position: absolute;
+    color: white;
+    top: 149.3em;
+    left: 46.7em;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.minus-4 {
+    border: 1px solid;
+    width: 0.8em;
+    color: white;
+    position: absolute;
+    top: 224.8em;
+    left: 69.9em;
+    opacity: 0;
+}
+
+.line-5 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 225.2em;
+    left: 63.4em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.download:hover~.line-5 {
+    opacity: 1;
+    animation: line-5 1s forwards ease;
+}
+
+.download:hover~.minus-4 {
+    opacity: 1;
+    transition-delay: 0.5s;
+    transform: scaleX(1);
+}
+
+@keyframes line-5 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 700px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(22)
+    }
+}
+
+.inbox {
+    position: absolute;
+    top: 230.8em;
+    left: 54.6em;
+    height: auto;
+    width: 46.3%;
+}
+
+.application {
+    position: absolute;
+    top: 184.5em;
+    left: 5em;
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Empower-developers {
+    position: absolute;
+    top: 96.5em;
+    left: 2.5em;
+    color: #33b3ae;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secure-code {
+    position: absolute;
+    top: 97.6em;
+    left: 2.5em;
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.code-minutes {
+    position: absolute;
+    top: 98.6em;
+    left: 2.5em;
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cmake-yml {
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1.5em;
+    padding: 4em 0 0 4em;
+    top: 288em;
+    border: 1px solid rgb(42, 47, 52);
+    background-color: rgb(24, 26, 30);
+    height: 30em;
+    width: 95%;
+    color: rgb(89, 88, 88);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.on-push {
+    border-radius: 10px;
+    position: absolute;
+    top: 336em;
+    left: 6.9em;
+    color: rgb(89, 88, 88);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.build {
+    position: absolute;
+    top: 240em;
+    left: 9.1em;
+    padding-left: 4em;
+    border-radius: 8px;
+    height: 3.9em;
+    width: 27em;
+    background-color: rgb(79, 81, 86);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.circle {
+    position: absolute;
+    top: 301.9em;
+    left: 14em;
+    border-radius: 100%;
+    height: 1.4em;
+    width: 1.4em;
+    background-color: rgb(74, 179, 74);
+}
+
+.time {
+    position: absolute;
+    top: 322em;
+    left: 43em;
+    color: rgb(138, 135, 135);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.step {
+    position: absolute;
+    top: 317em;
+    left: 52.1em;
+    height: 2.5em;
+    width: 6em;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    background-color: rgb(79, 81, 86);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initialize {
+    position: absolute;
+    top: 266em;
+    left: 43.4em;
+    border-radius: 8px;
+    background-color: rgb(79, 81, 86);
+    height: 12em;
+    width: 28em;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.initialize-2 {
+    position: absolute;
+    top: 241.2em;
+    left: 43em;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.circle-2 {
+    position: absolute;
+    top: 301.7em;
+    left: 51em;
+    border-radius: 100%;
+    height: 1.4em;
+    width: 1.4em;
+    background-color: rgb(74, 179, 74);
+}
+
+.time-2 {
+    position: absolute;
+    top: 322em;
+    left: 80em;
+    color: rgb(138, 135, 135);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.autobuild {
+    position: absolute;
+    top: 244.2em;
+    left: 43em;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.circle-3 {
+    position: absolute;
+    top: 305.4em;
+    left: 51em;
+    border-radius: 100%;
+    height: 1.4em;
+    width: 1.4em;
+    background-color: rgb(74, 179, 74);
+}
+
+.time-3 {
+    position: absolute;
+    top: 326em;
+    left: 80em;
+    color: rgb(138, 135, 135);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.performance {
+    position: absolute;
+    top: 247.2em;
+    left: 43em;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.circle-4 {
+    position: absolute;
+    top: 309.1em;
+    left: 51em;
+    border-radius: 100%;
+    height: 1.4em;
+    width: 1.4em;
+    background-color: rgb(74, 179, 74);
+}
+
+.time-4 {
+    position: absolute;
+    top: 330em;
+    left: 80em;
+    color: rgb(138, 135, 135);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.small-circle {
+    position: absolute;
+    top: 302.2em;
+    left: 45em;
+    background-color: rgb(79, 81, 86);
+    color: rgb(138, 135, 135);
+    border: 2px solid;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+}
+
+.small-circle-2 {
+    position: absolute;
+    top: 302.2em;
+    left: 48.3em;
+    background-color: rgb(79, 81, 86);
+    color: rgb(138, 135, 135);
+    border: 2px solid;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+}
+
+.linebetweencircles {
+    position: absolute;
+    top: 302.35em;
+    left: 45.5em;
+    color: white;
+    border: 1px solid;
+    width: 47.5px;
+}
+
+.hard-coded {
+    position: absolute;
+    top: 317em;
+    left: 53em;
+    height: 52%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.advanced-security {
+    position: absolute;
+    color: white;
+    top: 208em;
+    left: 7em;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.enable {
+    position: absolute;
+    color: rgb(118, 118, 118);
+    top: 226.2em;
+    left: 20.9em;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.findandfix {
+    position: absolute;
+    color: rgb(118, 118, 118);
+    top: 228em;
+    left: 7.6em;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secure {
+    position: absolute;
+    color: rgb(118, 118, 118);
+    top: 230em;
+    left: 7.6em;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.diveintogithub {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 234em;
+    left: 7.6em;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.symbol-5 {
+    position: absolute;
+    color: white;
+    top: 224.5em;
+    left: 23.6em;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.minus-5 {
+    border: 1px solid;
+    width: 0.8em;
+    color: white;
+    position: absolute;
+    top: 337.6em;
+    left: 35.2em;
+    opacity: 0;
+}
+
+.line-6 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 338.1em;
+    left: 23em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.diveintogithub:hover~.line-6 {
+    opacity: 1;
+    animation: line-6 1s forwards ease;
+}
+
+.diveintogithub:hover~.minus-5 {
+    opacity: 1;
+    transition-delay: 0.5s;
+    transform: scaleX(1);
+}
+
+@keyframes line-6 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 60px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(35)
+    }
+}
+
+.didyouknow {
+    position: absolute;
+    top: 465em;
+    left: 14em;
+    color: #33b3ae;
+    border: 1px solid #33b3ae;
+    border-radius: 15px;
+    height: 2em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sevenX {
+    position: absolute;
+    color: #33b3ae;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 94em;
+    left: 2.6em;
+}
+
+.vulnerability {
+    position: absolute;
+    top: 227.5em;
+    left: 6.5em;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.code-scanning {
+    position: absolute;
+    top: 247em;
+    border: 1px solid rgb(42, 47, 52);
+    border-radius: 10px;
+    margin-left: 1.5em;
+    padding: 3em 0 0 3em;
+    color: white;
+    background-color: rgb(24, 26, 30);
+    height: 20em;
+    width: 92%;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.code-analysis {
+    position: absolute;
+    top: 272.9em;
+    left: 12.9em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.remediate {
+    position: absolute;
+    top: 274.2em;
+    left: 5.3em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.your-code {
+    position: absolute;
+    top: 275.3em;
+    left: 5.3em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.req-query {
+    top: 369em;
+    left: 53em;
+    height: auto;
+    width: 44%;
+}
+
+.SAST {
+    position: absolute;
+    top: 350em;
+    left: 6.7em;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.symbol-6 {
+    position: absolute;
+    color: white;
+    top: 262.5em;
+    left: 17em;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.minus-6 {
+    border: 1px solid;
+    width: 0.8em;
+    color: white;
+    position: absolute;
+    top: 394.54em;
+    left: 25.3em;
+    opacity: 0;
+}
+
+.line-7 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 395em;
+    left: 16.6em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.SAST:hover~.line-7 {
+    opacity: 1;
+    animation: line-7 1s forwards ease;
+}
+
+.SAST:hover~.minus-6 {
+    opacity: 1;
+    transition-delay: 0.6s;
+    transform: scaleX(1);
+}
+
+@keyframes line-7 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 60px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(27)
+    }
+}
+
+.Dependabot {
+    position: absolute;
+    top: 281em;
+    border: 1px solid rgb(42, 47, 52);
+    border-radius: 10px;
+    background-color: rgb(24, 26, 30);
+    height: 34.7em;
+    width: 45%;
+    margin-left: 1.5em;
+    padding: 3em 0 0 3em;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.easy {
+    position: absolute;
+    top: 297em;
+    left: 11.4em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fix {
+    position: absolute;
+    top: 298.5em;
+    left: 5em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.supply {
+    position: absolute;
+    top: 299.9em;
+    left: 5em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Explore-Dependabot {
+    position: absolute;
+    top: 303em;
+    left: 5em;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.symbol-7 {
+    position: absolute;
+    color: white;
+    top: 277.90em;
+    left: 13.8em;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.minus-7 {
+    border: 1px solid;
+    width: 0.8em;
+    color: white;
+    position: absolute;
+    top: 417.66em;
+    left: 20.6em;
+    opacity: 0;
+}
+
+.line-8 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 418.3em;
+    left: 14em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.Explore-Dependabot:hover~.line-8 {
+    opacity: 1;
+    animation: line-8 1s forwards ease;
+}
+
+.Explore-Dependabot:hover~.minus-7 {
+    opacity: 1;
+    transition-delay: 0.6s;
+    transform: scaleX(1);
+}
+
+@keyframes line-8 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 60px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(21)
+    }
+}
+
+.dependabot-image {
+    top: 420em;
+    left: 3.5em;
+    height: auto;
+    width: 44.2%;
+}
+
+.secret-scanning {
+    position: absolute;
+    top: 281em;
+    border: 1px solid rgb(42, 47, 52);
+    border-radius: 10px;
+    background-color: rgb(24, 26, 30);
+    height: 34.7em;
+    width: 45%;
+    margin-left: 38em;
+    padding: 3em 0 0 3em;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.automatically {
+    position: absolute;
+    top: 297.1em;
+    left: 51.1em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.partner-pattern {
+    position: absolute;
+    top: 298.4em;
+    left: 43.2em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accidentally {
+    position: absolute;
+    top: 299.7em;
+    left: 43.2em;
+    color: rgb(94, 98, 106);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.read-about {
+    position: absolute;
+    top: 303em;
+    left: 43.2em;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.symbol-8 {
+    position: absolute;
+    color: white;
+    top: 277.95em;
+    left: 52em;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.minus-8 {
+    border: 1px solid;
+    width: 0.7em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 417.77em;
+    left: 78em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.line-9 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 418.3em;
+    left: 68.6em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.read-about:hover~.line-9 {
+    opacity: 1;
+    animation: line-9 1s forwards ease;
+}
+
+.read-about:hover~.minus-8 {
+    opacity: 1;
+    transition-delay: 0.6s;
+    transform: scaleX(1);
+}
+
+@keyframes line-9 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 930px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(27)
+    }
+}
+
+.env {
+    top: 422.5em;
+    left: 56em;
+    height: auto;
+    width: 44.2%;
+}
+
+.collaboration {
+    position: absolute;
+    top: 212.6em;
+    left: 3.4em;
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.supercharge-collaboration {
+    position: absolute;
+    top: 150em;
+    left: 2.5em;
+    color: #f778ba;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.team-work {
+    position: absolute;
+    top: 236.5em;
+    left: 4em;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.efficiently {
+    position: absolute;
+    top: 237.7em;
+    left: 4em;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prototype {
+    position: absolute;
+    top: 490em;
+    border-radius: 15px;
+    margin-left: 2em;
+    height: 50em;
+    width: 95%;
+}
+
+.rendering {
+    position: absolute;
+    top: 529em;
+    left: 60em;
+    height: auto;
+    width: 44%;
+}
+
+.github-issue {
+    position: absolute;
+    color: white;
+    top: 273em;
+    left: 7em;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.supply-project {
+    position: absolute;
+    color: rgb(94, 98, 106);
+    top: 274.3em;
+    left: 7em;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.adapt {
+    position: absolute;
+    color: rgb(94, 98, 106);
+    top: 275.6em;
+    left: 7em;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.started {
+    position: absolute;
+    color: white;
+    top: 343em;
+    left: 8.6em;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.symbol-9 {
+    position: absolute;
+    top: 371.8em;
+    left: 25.35em;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+.minus-9 {
+    border: 1px solid;
+    width: 0.7em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 558.6em;
+    left: 38em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.line-10 {
+    border: 1px solid;
+    width: 0.7em;
+    color: white;
+    position: absolute;
+    top: 559.2em;
+    left: 25.7em;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.started:hover~.line-10 {
+    opacity: 1;
+    animation: line-10 1s forwards ease;
+}
+
+.started:hover~.minus-9 {
+    opacity: 1;
+    transition-delay: 0.6s;
+    transform: scaleX(1);
+}
+
+@keyframes line-10 {
+    from {
+        transition: all 500ms;
+        transform: scaleX(0);
+        left: 120px;
+    }
+
+    to {
+        transition: all 500ms;
+        transform: scaleX(34)
+    }
+}
+
+.footer-1 {
+    position: absolute;
+    top: 430em;
+    color: rgb(130, 132, 138);
+    width: 60em;
+    margin: 1em;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.footer-2 {
+    position: absolute;
+    top: 437em;
+    color: rgb(130, 132, 138);
+    width: 60em;
+    margin: 1em;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.footer-3 {
+    position: absolute;
+    top: 442em;
+    color: rgb(130, 132, 138);
+    width: 60em;
+    margin: 1em;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+u:hover {
+    cursor: pointer;
+}
+
+.github-2 {
+    position: absolute;
+    top: 250em;
+    margin: 0.5em;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.subscribe {
+    position: absolute;
+    top: 458.5em;
+    margin: 1em;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.get-tips {
+    position: absolute;
+    top: 460em;
+    margin: 1em;
+    width: 29em;
+    color: rgb(130, 132, 138);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subscribe-button {
+    position: absolute;
+    top: 467em;
+    background-color: rgb(13, 14, 23);
+    border: 2px solid rgb(130, 132, 138);
+    border-radius: 0.375rem;
+    left: 1em;
+    height: 3em;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subscribe-button:hover {
+    border: 3px solid white;
+    transition: border 0.1s;
+}
+
+.product {
+    position: absolute;
+    top: 501.2em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.features {
+    position: absolute;
+    top: 503.5em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.features:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.enterprise {
+    position: absolute;
+    top: 506em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.enterprise:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.copilot {
+    position: absolute;
+    top: 508.5em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.copilot:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.security {
+    position: absolute;
+    top: 510.8em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.security:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.pricing {
+    position: absolute;
+    top: 513.2em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pricing:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.team {
+    position: absolute;
+    top: 515.5em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.team:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.resources {
+    position: absolute;
+    top: 517.6em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resources:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.roadmap {
+    position: absolute;
+    top: 519.6em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roadmap:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.compare {
+    position: absolute;
+    top: 521.6em;
+    left: 35em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.compare:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.platform {
+    position: absolute;
+    top: 501.2em;
+    left: 47em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.developer-API {
+    position: absolute;
+    top: 503.5em;
+    left: 47em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.developer-API:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.partner {
+    position: absolute;
+    top: 506em;
+    left: 47em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.partner:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.electron {
+    position: absolute;
+    top: 508.5em;
+    left: 47em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.electron:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.github-desktop {
+    position: absolute;
+    top: 510.8em;
+    left: 47em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.github-desktop:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.support {
+    position: absolute;
+    top: 501.2em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.docs {
+    position: absolute;
+    top: 503.5em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.docs:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.community {
+    position: absolute;
+    top: 506em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.community:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.professional {
+    position: absolute;
+    top: 508.5em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.professional:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.premium {
+    position: absolute;
+    top: 510.8em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.premium:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.skills {
+    position: absolute;
+    top: 513.2em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.status {
+    position: absolute;
+    top: 515.5em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.status:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.contact {
+    position: absolute;
+    top: 517.6em;
+    left: 60em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.company {
+    position: absolute;
+    top: 501.2em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about {
+    position: absolute;
+    top: 503.5em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.customer {
+    position: absolute;
+    top: 506em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customer:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.blog {
+    position: absolute;
+    top: 508.5em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.readme {
+    position: absolute;
+    top: 510.8em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.readme:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.career {
+    position: absolute;
+    top: 513.2em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.career:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.press {
+    position: absolute;
+    top: 515.5em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.press:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.inclusion {
+    position: absolute;
+    top: 517.6em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inclusion:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.social {
+    position: absolute;
+    top: 519.6em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
+
+.shop {
+    position: absolute;
+    top: 521.6em;
+    left: 73em;
+    color: rgb(130, 132, 138);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shop:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(41, 107, 207);
+    transition: all 0.3s;
+}
